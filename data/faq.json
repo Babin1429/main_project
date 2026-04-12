@@ -1,0 +1,22 @@
+[
+  {
+    "question": "I was charged twice for my subscription",
+    "answer": "Duplicate charges are rare but we take them seriously. Please share your transaction details and we'll process a refund within 3-5 business days."
+  },
+  {
+    "question": "How do I reset my password?",
+    "answer": "Go to the login page and click 'Forgot Password'. Enter your email and check your inbox for a reset link."
+  },
+  {
+    "question": "How do I cancel my subscription?",
+    "answer": "You can cancel your subscription anytime from your account settings. The cancellation will take effect at the end of your current billing period."
+  },
+  {
+    "question": "I can't access my account",
+    "answer": "Please check your email for any verification messages. If you're still having issues, contact our support team with your account details."
+  },
+  {
+    "question": "How do I update my payment method?",
+    "answer": "Go to your account settings and select 'Payment Methods'. You can add a new card or update existing payment information there."
+  }
+]
