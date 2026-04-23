@@ -1,9 +1,11 @@
 # App/core/retrivel.py
-
+import os
 import json
 from App.core.vector_storage import VectorStorage
 from App.core.embeddings import get_embeddings
 from App.core.config import DATA_PATH, INDEX_PATH
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 def retrieve(query, top_k=5):
     # Load FAQs
