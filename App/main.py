@@ -1,9 +1,10 @@
 # App/main.py
-
+import os
+import sys
 import streamlit as st
 from App.core.faq_services import process_query
 from datetime import datetime
-
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 st.set_page_config(
     page_title="JoestarIQ",
     page_icon="☆",
